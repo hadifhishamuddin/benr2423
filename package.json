@@ -1,7 +1,7 @@
 {
   "name": "benr2423-w02-master",
   "version": "1.0.0",
-  "description": "",
+  "description": "mongodb",
   "main": "week02.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/hadifhishamuddin/benr2423#readme",
   "dependencies": {
     "mongodb": "^4.4.1"
-  }
+  },
+  "devDependencies": {}
 }
