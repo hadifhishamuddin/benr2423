@@ -1,0 +1,22 @@
+{
+  "name": "benr2423-w02-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "week02.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadifhishamuddin/benr2423.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadifhishamuddin/benr2423/issues"
+  },
+  "homepage": "https://github.com/hadifhishamuddin/benr2423#readme",
+  "dependencies": {
+    "mongodb": "^4.4.1"
+  }
+}
