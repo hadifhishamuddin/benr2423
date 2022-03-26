@@ -22,12 +22,12 @@ client.connect(err => {
 	// 	console.log(result[4]);
 	// })
 
-	// client.db('sample_training').collection('companies').find({name:'Recipezaar'}).toArray().then(result=>{
-	// 	console.log(result);
-	// })
-
-	client.db('sample_training').collection('zips').find({'state':'NY'}).toArray().then(result=>{
+	client.db('sample_training').collection('companies').find({name:'Recipezaar'}).toArray().then(result=>{
 		console.log(result);
 	})
+
+	// client.db('sample_training').collection('zips').find({'state':'NY'}).toArray().then(result=>{
+	// 	console.log(result);
+	// })
 
 });
