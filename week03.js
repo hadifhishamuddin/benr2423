@@ -8,7 +8,9 @@ client.connect(async err => {
 		return
 	}
 	console.log('Connected to MongoDB');
-	console.time('insert');
+	console.log('Connected to MongoDB');
+    
+    console.time('insert');
 
 	let result = await client.db('Week03').collection('companies').deleteMany({
 		name: 'Zenfolio'
