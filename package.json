@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/hadifhishamuddin/benr2423#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "mongodb": "^4.4.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0"
+  }
 }
